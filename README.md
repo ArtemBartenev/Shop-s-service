@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ArtemBartenev/Shop-s-service.svg?branch=master)](https://travis-ci.org/ArtemBartenev/Shop-s-service)
 # Shop-s-service description
 ### Using this module you can interact with shop's showcase. 
 ### You be able to add companies, employees, goods and appoint employees for the goods.
