@@ -91,7 +91,7 @@ class ResponseValidation(unittest.TestCase):
         self.params = None
         self.event_loop = None
 
-
+@unittest.skip("Database not initialised")
 class DataBaseRequestTest(unittest.TestCase):
     def setUp(self):
         self.kwargs = {
