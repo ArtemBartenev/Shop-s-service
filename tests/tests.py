@@ -1,12 +1,11 @@
-import unittest
-import methods
 import aiohttp
 import asyncio
+import methods
 import psycopg2
 from schemas import company_schema
 from service_exceptions import ServiceValidationError, ServiceExecuteError
 from showcase_db import dsn, add_company_to_db, CONN_PARAMS
-
+import unittest
 
 
 class ValidationTest(unittest.TestCase):

@@ -1,6 +1,8 @@
 """
 This module contains schemas to validate arguments and responses.
 """
+
+
 company_schema = {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "definitions": {

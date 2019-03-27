@@ -4,9 +4,8 @@
 """
 import asyncio
 import aiohttp
+from jsonschema import validate, ValidationError
 import psycopg2
-from jsonschema import validate
-from jsonschema import ValidationError
 from service_exceptions import ServiceExecuteError, ServiceValidationError, ServiceConnectionError
 from schemas import company_schema, employee_schema, good_adding_schema, appoint_employee_schema
 from showcase_db import *
